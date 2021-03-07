@@ -79,3 +79,19 @@ main {
 .logo:hover {
     transform: translateY(2px);
 }
+.gitHub {
+    color:#edf0f1;
+}
+.gitHub:hover {
+    cursor: pointer;
+    transform: translateY(2px);
+}
+
+@media only screen and (max-height: 800px) {
+    body {
+        overflow: visible; 
+    }
+    main {
+        height: 150vh
+    }
+}
