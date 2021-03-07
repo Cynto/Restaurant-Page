@@ -30,11 +30,7 @@ const contactLoader = (() => {
         gitHub.setAttribute('style', 'margin-top: 20px; font-size: 20px; display: inline-block;');
         profileLink.appendChild(gitHub)
 
-        const profile = document.createElement('img');
-        profile.setAttribute('src', '/src/img/GitHub-Mark-32px.png')
-        profile.classList.add('logo')
-        profile.setAttribute('style', 'display: inline-block; ')
-        gitHub.appendChild(profile)
+        
 
         
         const projectLink = document.createElement('a');
@@ -48,10 +44,7 @@ const contactLoader = (() => {
         projectGit.setAttribute('style', 'margin-top: 20px; font-size: 20px; display: inline-block;');
         projectLink.appendChild(projectGit);
 
-        const projectImg = document.createElement('img');
-        projectImg.setAttribute('src', '/src/img/GitHub-Mark-32px.png');
-        projectImg.classList.add('logo');
-        projectGit.appendChild(projectImg);
+        
 
 
 
