@@ -83,6 +83,7 @@ main {
     color:#edf0f1;
 }
 .gitHub:hover {
+    color: #0088a9;
     cursor: pointer;
     transform: translateY(2px);
 }
